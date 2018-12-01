@@ -1,6 +1,7 @@
 .outer{
   display: flex;
 }
+
 .left{
   width: 60%;
   display: flex;
@@ -8,6 +9,7 @@
   align-items: center;
   border: 3px solid #88A09E;
 }
+
 .right{
   width: 40%;
   display: flex;
@@ -15,41 +17,50 @@
   align-items: flex-start;
   border: 3px solid #88A09E;
 }
+
 nav{
   display: flex;
   justify-content: space-between;
   background-color: #D3D4D9;
   border: 3px solid #88A09E;
 }
+
 nav div{
   display: flex;
 }
+
 form{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .rightnav{
   width: 25%;
   justify-content:space-around;
 }
+
 .leftnav{
   width: 15%;
   justify-content:space-around;
 }
+
 @media only screen and (max-width: 650px){
   .outer{
     display: block;
     position:relative;
   }
 }
+
 .views{
   display: flex;
 }
+
 .number{
   color: #C0C1C6;
   width: 50%;
 }
+
 .placeholders{
   display: flex;
   width: 50%;
@@ -58,55 +69,67 @@ form{
   justify-content: space-between;
   color: #ADAEB2;
 }
+
 .id{
   width: 30px;
   height:30px;
 }
+
 .name{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .subscribe{
   display: flex;
   justify-content: space-between;
 }
+
 .button{
   width: 100px;
   height:30px;
   align-items: center;
   justify-content: center;
 }
+
 .logo{
   width: 100px;
   height:30px;
 }
+
 .logosize{
   align-items: center;
   justify-content: center;
 }
+
 .adsize{
   width:75%;
 }
+
 #one{
   font-weight:strong;
   text-decoration: underline;
 }
+
 .video1{
   display: flex;
 }
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
+
 .hline-bottom {
-    padding-bottom: 10px;
-    border-bottom: 2px solid #A8B9B8; /* whichever color you prefer */
+  padding-bottom: 10px;
+  border-bottom: 2px solid #A8B9B8; /* whichever color you prefer */
 }
+
 h4{
   color:#C0C1C6;
 }
