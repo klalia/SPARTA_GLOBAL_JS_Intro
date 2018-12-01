@@ -1,4 +1,4 @@
-# SPARTA_GLOBAL_JS_Intro
+# SPARTA_GLOBAL_HTML-CSS_Youtube
 
 This is a YouTube page created through the use of HTML and CSS. This YouTube page focuses on the structure and layout of webpage rather than the functionality. It consists of placeholders like 1,2 etc to be in place of buttons that would be created through the use of JavaScript.  
 
